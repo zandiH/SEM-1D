@@ -3,7 +3,7 @@ A simple programming for simulating 1-D wave equation using spectral element met
 The input parameters include, 
 Input parameters are:<br>
 <code> 
-            &emsp;&emsp;c0          :   velocity vector, for homogenous case\
+            &emsp;&emsp;c0          :   velocity vector, for homogenous case<br\>
             &emsp;&emsp;c           :   velocity vector, for heterogenous case\
             &emsp;&emsp;rho         :   density vector<br>
             &emsp;&emsp;L           :   domain size<br>
@@ -14,7 +14,7 @@ Input parameters are:<br>
             &emsp;&emsp;mode        :   time integration scheme, including 'cfd' (centered finite difference) or 'newmark'<br>
             &emsp;&emsp;bd          :   boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'<br>
             &emsp;&emsp;nw_acc_type :   type of acceleration change in newmark method, including 'average','linear'; defualt is 'average'<br>
-</code>
+%</code>
             ! The Lagrange class - A class for Lagrange polynomials's interpolation, integration, and derivation, 
               using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is https://github.com/heinerigel/coursera/tree/master/Notebooks4Coursera/W9<br>
               
