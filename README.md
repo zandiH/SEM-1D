@@ -10,11 +10,13 @@ The input parameters are:<br>
         ne          :  number of elements
         dt          :  time step
         isrc        :  receiver position
-        mode        :  time integration scheme, including 'cfd' (centered finite difference) or 'newmark'
+        mode        :  time integration scheme, including 'cfd' (centered finite difference) 
+                       and 'newmark'
         bd          :  boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'
-        nw_acc_type :  type of acceleration change in newmark method, including 'average','linear'; defualt is 'average'<br>
+        nw_acc_type :  type of acceleration change in newmark method, including 'average','linear'
+                       defualt is 'average'<br>
 </pre>
-            The Lagrange class - A class for Lagrange polynomials's interpolation, integration, and derivation, 
-            using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is 
+            The Lagrange class - A class for Lagrange polynomials's interpolation, integration, 
+            and derivation, using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is 
             https://github.com/heinerigel/coursera/tree/master/Notebooks4Coursera/W9
               
