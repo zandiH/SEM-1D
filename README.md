@@ -2,10 +2,8 @@
 A simple programming for simulating 1-D wave equation using spectral element method.<br> The time integration schemes used are center finite difference and Newmark methods, for 4 types of boundary conditions, including free surface or zero stress, rigid or zero displacement, periodic, and absorbing boundary conditions.
 The input parameters include, 
 Input parameters are:<br>
-            | Syntax | Description |
-            | --- | ----------- |
-            &emsp;&emsp;|c0|          |  velocity vector, for homogenous case |
-            &emsp;&emsp;c           :   velocity vector, for heterogenous case<br>
+            {&emsp;&emsp;c0          :   velocity vector, for homogenous case<br>}
+            {&emsp;&emsp;c           :   velocity vector, for heterogenous case<br>}
             &emsp;&emsp;rho         :   density vector<br>
             &emsp;&emsp;L           :   domain size<br>
             &emsp;&emsp;N           :   degree of lagrange polynomials<br>
