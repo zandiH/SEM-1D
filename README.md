@@ -7,14 +7,14 @@ Input parameters are:<br>
             &emsp;&emsp;c           :   velocity vector, for heterogenous case
             &emsp;&emsp;rho         :   density vector
             &emsp;&emsp;L           :   domain size
-            &emsp;&emsp;N           :   degree of lagrange polynomials<br>
-            &emsp;&emsp;ne          :   number of elements<br>
-            &emsp;&emsp;dt          :   time step<br>
-            &emsp;&emsp;isrc        :   receiver position<br>
-            &emsp;&emsp;mode        :   time integration scheme, including 'cfd' (centered finite difference) or 'newmark'<br>
-            &emsp;&emsp;bd          :   boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'<br>
+            &emsp;&emsp;N           :   degree of lagrange polynomials
+            &emsp;&emsp;ne          :   number of elements
+            &emsp;&emsp;dt          :   time step
+            &emsp;&emsp;isrc        :   receiver position
+            &emsp;&emsp;mode        :   time integration scheme, including 'cfd' (centered finite difference) or 'newmark'
+            &emsp;&emsp;bd          :   boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'
             &emsp;&emsp;nw_acc_type :   type of acceleration change in newmark method, including 'average','linear'; defualt is 'average'<br>
 </pre>
-            ! The Lagrange class - A class for Lagrange polynomials's interpolation, integration, and derivation, 
-              using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is https://github.com/heinerigel/coursera/tree/master/Notebooks4Coursera/W9<br>
+            The Lagrange class - A class for Lagrange polynomials's interpolation, integration, and derivation, 
+            using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is https://github.com/heinerigel/coursera/tree/master/Notebooks4Coursera/W9
               
