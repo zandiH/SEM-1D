@@ -3,10 +3,10 @@ A simple programming for simulating 1-D wave equation using spectral element met
 The input parameters include, 
 Input parameters are:<br>
 <pre> 
-            &emsp;&emsp;c0          :   velocity vector, for homogenous case<br\>
-            &emsp;&emsp;c           :   velocity vector, for heterogenous case\
-            &emsp;&emsp;rho         :   density vector<br>
-            &emsp;&emsp;L           :   domain size<br>
+            &emsp;&emsp;c0          :   velocity vector, for homogenous case
+            &emsp;&emsp;c           :   velocity vector, for heterogenous case
+            &emsp;&emsp;rho         :   density vector
+            &emsp;&emsp;L           :   domain size
             &emsp;&emsp;N           :   degree of lagrange polynomials<br>
             &emsp;&emsp;ne          :   number of elements<br>
             &emsp;&emsp;dt          :   time step<br>
