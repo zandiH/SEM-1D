@@ -6,21 +6,18 @@ The input parameters are:<br>
         nt          :   number of time points
         c0          :  velocity, for homogenous case (m/s)
         c           :  velocity vector, for heterogenous case
-        rho0        :  density,  for homogenous case (kg/$m^3$)
+        rho0        :  density,  for homogenous case (kg/m^3)
         rho         :  density vector
-        L           :  domain size
-        N           :  degree of lagrange polynomials
         freq        :  central frequency of the source
-        ne          :  number of elements
+        N           :  degree of lagrange polynomials
+        xsrc        :  source position (m)
+        xrec        :  receiver position (m)       
         dt          :  time step
-        isrc        :  receiver position
         mode        :  time integration scheme, including 'cfd' (centered finite difference) 
                        and 'newmark'
         bd          :  boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'
         nw_acc_type :  type of acceleration change in newmark method, including 'average','linear'
                        defualt is 'average'<br>
 </pre>
-            The Lagrange class - A class for Lagrange polynomials's interpolation, integration, 
-            and derivation, using GLL (Gauss Lobatto Legendre) collocation points - "Source code" is 
-            https://github.com/heinerigel/coursera/tree/master/Notebooks4Coursera/W9
+
               
