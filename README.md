@@ -9,7 +9,7 @@ The input parameters are:<br>
         rho0        :  density,  for homogenous case (kg/m^3)
         rho         :  density vector
         freq        :  central frequency of the source
-        N           :  degree of lagrange polynomials
+        N           :  degree of lagrange polynomials  (here N=2:7)
         xsrc        :  source position (m)
         xrec        :  receiver position (m)       
         dt          :  time step
