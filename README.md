@@ -3,7 +3,7 @@ A simple program for simulating 1-D wave equation using spectral element method.
 The input parameters are:<br>
 <pre> 
         L           :  domain size (m)
-        nt          :   number of time points
+        nt          :  number of time steps
         c0          :  velocity, for homogenous case (m/s)
         c           :  velocity vector, for heterogenous case
         rho0        :  density,  for homogenous case (kg/m^3)
