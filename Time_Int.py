@@ -5,9 +5,9 @@ class Time_Int():
     
     '''
     A class for time integration in SEM formulation
-    Two schemes used are centered finite differecen (cfd) and newmark.
+    Two schemes used are centered finite differecen (cfd) and Newmark.
     Also, four boundary conditions are applied, including rigid, free, absorbing, 
-        and periodic boundary conditinos
+        and periodic boundary conditions
     '''
     
     def __init__(self, K, m, c, rho, J, nep, dt, isrc, mode, bd, it=0, nw_acc_type='average'):
