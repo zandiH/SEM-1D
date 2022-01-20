@@ -6,7 +6,7 @@ The input parameters are:<br>
         nt          :  number of time steps
         c0          :  velocity, for homogenous case (m/s)
         c           :  velocity vector, for heterogenous case
-        rho0        :  density,  for homogenous case (kg/m^3)
+        rho0        :  density, for homogenous case (kg/m^3)
         rho         :  density vector
         freq        :  central frequency of the source
         N           :  degree of lagrange polynomials  (here N=2:7)
