@@ -13,6 +13,7 @@ The input parameters are:<br>
         xsrc        :  source position (m)
         xrec        :  receiver position (m)       
         dt          :  time step
+        ne          :  number of elements
         mode        :  time integration scheme, including 'cfd' (centered finite difference) 
                        and 'newmark'
         bd          :  boundary conditions, including 'rigid', 'free', 'absorbing', 'periodic'
